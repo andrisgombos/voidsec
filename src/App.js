@@ -16,6 +16,7 @@ function App() {
   <>
     <div className="vs_background1">
       <img className="vs_bg1" src={bg1}></img>
+      <img className="vs_bg2" src={bg2}></img>
       <header className="vs_header">
           <div className="vs_header_left">
             <img className="header_logo" src={header}/>
@@ -37,7 +38,9 @@ function App() {
       </div>
     </div>
     <div className="vs_background2">
-      <img className="vs_bg2" src={bg2}></img>
+      <div className="vs_half" />
+      <div className="vs_half_blk" />
+      {/* <img className="vs_bg2" src={bg2}></img> */}
       <div id='vs_about' className="vs_about">
         <h3>About Us</h3>
         <p>We, VoidSec, as a security consulting firm believe that security should be the fundamental of any IT related projects, organizations, etc. Making the internet a safe space is a responsibility of all participants.</p>
