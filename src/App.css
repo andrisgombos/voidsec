@@ -196,6 +196,33 @@ a {
 
 @media screen and (max-width: 480px) {
     p {
-        /* font-size: 2.4vw; */
+        font-size: 2.2vw;
+    }
+
+    .vs_upper1_p {
+        width: 90%;
+    }
+    
+    .vs_upper2 {
+        padding-top: 25vw;
+        width: 90%;
+    }
+
+    .vs_about {
+        width: 90%;
+    }
+
+    .vs_bg2 {
+        top: 101.46vw;
+        height: 100%;
+    }
+
+    .vs_gridcontainer {
+        grid-template-columns: 1fr 1fr;
+    
+    }
+
+    .vs_contact {
+        width: 100%;
     }
 }
