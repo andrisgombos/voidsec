@@ -10,6 +10,7 @@ import icon7 from './assets/07.svg'
 import bg1 from './assets/VS_bg_1.png'
 import bg2 from './assets/VS_bg_2.png'
 import header from './assets/Header_logo.svg'
+import pg from "./assets/polygon.svg"
 
 function App() {
   return (
@@ -23,9 +24,9 @@ function App() {
           </div>
           <div className="vs_header_right">
             <nav className="vs_header_right">
-              <a href='#vs_about'>About_us</a>
-              <a href='#vs_services'>Services</a>
-              <a href='#vs_contact'>Contact</a>
+              <a href='#vs_about'>About_us<img className="polygon"src={pg}/></a>
+              <a href='#vs_services'>Services<img className="polygon"src={pg}/></a>
+              <a href='#vs_contact'>Contact<img className="polygon"src={pg}/></a>
             </nav>
           </div>
       </header>
