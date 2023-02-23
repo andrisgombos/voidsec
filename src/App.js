@@ -31,7 +31,7 @@ function App() {
           </div>
       </header>
       <div className="vs_upper1">
-      <h3>Filling the <b>void</b> in your<br/> cybersecurity defences.</h3>
+      <h3 className="vs_upperh3">Filling the <b>void</b> in your<br/> cybersecurity defences.</h3>
       <p className="vs_upper1_p">We help you and your company to overcome the obstacles presented by the emerging cyber threats. We provide an understanding of the possible security issues and their effects on the tested environment. Helping to find a common ground where the identified risks can be mitigated most suitable for the firm.</p>
       </div>
       <div className="vs_upper2">
