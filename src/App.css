@@ -223,7 +223,9 @@ a {
 
     .vs_bg2 {
         top: 101.46vw;
-        height: 100vh;
+        min-height: 100%;
+        height: 150vh;
+        max-height: 130%;
     }
 
     .vs_gridcontainer {
