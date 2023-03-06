@@ -69,7 +69,7 @@ function App() {
           <div className="vs_gridobject">
             <img className="vs_gridicon" src={icon3}></img>
             <div className="vs_gridbox">
-              <h4>Web Application Penetration</h4>
+              <h4>Web Application Penetration Test</h4>
               <p>For going in depth with internal or external web applications, in either White or Grey box approach.</p>
             </div>
           </div>
