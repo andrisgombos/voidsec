@@ -225,6 +225,7 @@ a {
         top: 101.46vw;
         min-height: 100%;
         height: 150vh;
+        max-height: 130%;
     }
 
     .vs_gridcontainer {
@@ -255,4 +256,13 @@ a {
     .header_logo {
         width: 20vw;
     }
+}
+
+@media screen and ((max-height: 780px)) {
+    .vs_bg2 {
+        top: 101.46vw;
+        min-height: 100%;
+        height: 150vh;
+    }
+
 }
